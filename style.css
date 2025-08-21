@@ -603,6 +603,7 @@ letter-spacing: 0%;
   /* Smaller tablet styles */
 
   .product-content{
+    display:  flex;
         align-items: center;
     font-size: 10px;
     justify-content: center;
