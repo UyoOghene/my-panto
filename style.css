@@ -691,3 +691,127 @@ letter-spacing: 0%;
   }
 }
 
+      /* Experiences section  */
+.experience-container{
+
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 200px;
+
+}
+.threecards{
+    width: 50%;
+        position: relative;
+
+}
+.exptext{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+.experiences{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #E58411;
+    margin-bottom: 0;
+}
+.provision{
+        font-size: 35px;
+    font-weight: lighter;
+    margin-bottom: 0;
+
+}
+.cardpic{
+    z-index: 1000;
+    width: 35em ;
+    border-radius: 20px;
+    position: absolute;
+
+}
+.cardpic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.c {
+    width: 80px;
+    height: 100px;
+    background-color: rgb(242, 239, 239);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0px 6px 18px rgba(0,0,0,0.2); 
+}
+
+.card2 {
+    position: absolute;
+    width: 30em;
+    height: 35em;
+    z-index: 900;
+}
+
+.card3 {
+    position: absolute;
+    width: 36em;
+    height: 30em;
+    z-index: 800;
+}
+
+.card4 {
+    position: absolute;
+    width: 25em;
+    height: 30em;
+    z-index: 700;
+    bottom: -25em;
+}
+
+@media (max-width: 1024px) {
+  .experience-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .threecards {
+    width: 90%;
+    order: 1; /* comes first */
+  }
+
+  .exptext {
+    margin-top: 25em;
+    width: 90%;
+    order: 2; /* comes after */
+  }
+
+  /* scale down cards */
+  .cardpic {
+    width: 20em;
+  }
+
+  .card2 {
+    width: 18em;
+    height: 22em;
+  }
+
+  .card3 {
+    width: 20em;
+    height: 18em;
+  }
+
+  .card4 {
+    width: 15em;
+    height: 18em;
+    bottom: -15em;
+  }
+}
