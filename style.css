@@ -646,7 +646,7 @@ letter-spacing: 0%;
     padding: 0 15px;
   }
   
-  .product-content, .card-container {
+   .card-container {
     width: 100%;
   }
   
@@ -664,11 +664,7 @@ letter-spacing: 0%;
     font-size: 28px;
   }
   
-  .product-name {
-    width: 100%;
-    border-radius: 25px;
-  }
-  
+
   .chairs {
     padding: 6px 12px;
     border-radius: 20px;
