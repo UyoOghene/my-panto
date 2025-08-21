@@ -601,14 +601,25 @@ letter-spacing: 0%;
 
 @media (max-width: 768px) {
   /* Smaller tablet styles */
+
+  .product-content{
+        align-items: center;
+    font-size: 10px;
+    justify-content: center;
+    gap: 1px;
+    padding: 2px;
+    margin: 1px;
+
+    width: 60%;
+  }
   .product-name {
     align-items: center;
-    width: 70%;
+    width: 50%;
     font-size: 10px;
     justify-content: space-between;
     gap: 1px;
     padding: 2px;
-    margin: 2px;
+    margin: 1px;
   }
   
   .chairs {
