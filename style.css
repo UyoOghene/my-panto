@@ -354,11 +354,15 @@ display: flex;
     
     
     .main-text {
-        margin-top: 10em;
+        margin-top: 15em;
+    }
+
+    .logo{
+        display: none;
     }
     
     .main-text h2 {
-        font-size: 25px;
+        font-size: 16px;
     }
     
     .parent-div {
@@ -368,7 +372,12 @@ display: flex;
     }
     
     .choosing {
-        font-size: 20px;
+        font-size: 15px;
+    }
+
+    .choosing-container{
+        background-color: white;
+        border: 1px solid #ccc;
     }
     
     /* Center decorative circles for tablets and mobile */
